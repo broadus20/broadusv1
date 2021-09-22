@@ -1,0 +1,55 @@
+.header {
+    display: grid;
+    grid-template-columns: 1r 1fr;
+    grid-gap: 40 px;
+    align-items: center;
+}
+.header h2 {
+    font-size: 4em;
+}
+.header h3 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    border: 2px solid black;
+    border-color: #64ffda;
+    color: #64ffda;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.hero {
+    max-width: 500px;
+    padding-left: 75px;
+
+}
+
+.hero > h3 {
+    font-size: 1em;
+    color: #64ffda;
+}
+
+.hero > h1 {
+    font-size: 3.2em;
+    color: #ccd6f6;
+}
+.hero > h2 {
+    font-size: 2.5em;
+    color: #8892b0;
+}
+.hero > p {
+    color: #8892b0;
+}
+
+.photoSelf {
+    float: right;
+    top:50;
+    z-index: 999;
+    width: 300px;
+    max-width: 10%;
+    height: auto;
+}
