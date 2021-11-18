@@ -15,7 +15,7 @@ console.log(data)
             <h3>Hi, my name is </h3>
             <h1>Stephen Broadus</h1>
             <h2>I work with data</h2>
-            <p>I am a data enginer specializing in building models to analize information.</p>
+            <p>I am a data engineer specializing in building models to analize information.</p>
             <Link className = {styles.btn} to="/projects">My Portfolio Projects</Link>
 
         </div>
